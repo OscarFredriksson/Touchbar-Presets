@@ -1,11 +1,12 @@
 SRC = $(wildcard *.c)
+EXEC = cpu-stats
 
+F_PATH = /Library/Frameworks
+FLAGS = -framework IntelPowerGadget -o
 
-cpu-stats: $(SRC)
-	clang -F/Library/Frameworks/ $(SRC) -framework IntelPowerGadget -o cpu-stats
-run: cpu-stats
-	./cpu-stats
+$(EXEC): $(SRC)
+	clang -F$(F_PATH) $^ $(FLAGS) $@
+	./$@
 
 clean:
-	rm cpu-stats
-	
+	rm $(EXEC)	
