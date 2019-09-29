@@ -84,17 +84,17 @@ int main(int argc, char* argv[]) {
     while ((arg = getopt(argc, argv, opts)) != -1)
     {
 		flag_set = 1;
-        switch(arg)
-        {
-            case 'a':
+		switch(arg)
+		{
+			case 'a':
 			{
-                printAll(&stats);
-                break;
+				printAll(&stats);
+				break;
 			}
 			case 't':
-                printTemp(stats.temp);
-                break; 
-            case 'f':
+				printTemp(stats.temp);
+				break; 
+			case 'f':
 				printFreq(stats.freq);
 				break;
 			case 'p':
