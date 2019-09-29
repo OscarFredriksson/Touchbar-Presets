@@ -1,3 +1,4 @@
-set temp to do shell script "/Users/oscar/Documents/Touchbar/Presets/Default/Scripts/stats/CPU/src/cpu-stats -t"
+set temp to do shell script "/usr/local/bin/istats cpu --value-only | awk '{print int($1+0.5)}'"
+set value to do shell script "sed s/[a-zA-Z:{},]//g <<< " & temp
 
-return temp
+return value & "¡C"
