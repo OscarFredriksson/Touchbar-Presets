@@ -53,12 +53,12 @@ void printTemp(const float temp)
 
 void printFreq(const float freq)
 {
-	printf("%.2fGHz", freq);
+	printf("%.1fGHz", freq);
 }
 
 void printPower(const float power)
 {
-	printf("%3.2fW", power);
+	printf("%3.1fW", power);
 }
 
 void printAll(struct Stats* stats)
