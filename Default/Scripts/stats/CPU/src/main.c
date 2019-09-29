@@ -87,10 +87,8 @@ int main(int argc, char* argv[]) {
 		switch(arg)
 		{
 			case 'a':
-			{
 				printAll(&stats);
 				break;
-			}
 			case 't':
 				printTemp(stats.temp);
 				break; 
