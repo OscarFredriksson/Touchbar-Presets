@@ -12,7 +12,7 @@ Presets for Macbook Pro Touchbar in BetterTouchTool
 - Volume controls
 - Go to apple default touchbar
 - Open stats group
-- Battery %
+- Battery Percentage
 - Clock
 
 ## Stats group:
