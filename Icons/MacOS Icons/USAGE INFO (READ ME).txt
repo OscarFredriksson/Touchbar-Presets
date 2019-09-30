@@ -1,0 +1,35 @@
+
+About This Icon Pack:
+
+Here are a heap of Apple's native TouchBar icons sorted and named for putting into your TouchBar Icons!
+
+🔵 Blue Tag = NEW    (Recently added in this version)
+
+__________________________________
+
+USAGE TIP: 
+Check on [Keep aspect ratio when resizing buttons] within BTT's [General Touch Bar Settings] and consider the following:
+
+
+- Height Rule: -
+When importing into BTT TouchBar buttons, Always set the icon height to 30px. This will render them sharper and as Apple intended.
+
+BTT's default 22px does not match the system's default 30px height which these icons are designed for.
+
+Exclusions to this height rule:
+• Photoshop Icons
+
+
+__________________________________
+
+Do not use or sell these for any other reason other than creating your own BTT presets or else you might get into trouble!
+
+
+__________________________________
+Enjoy~
+
+yuuiko
+https://community.folivora.ai/t/7154/
+
+Visit the thread for pack updates, etc:
+https://community.folivora.ai/t/community-icon-store-find-and-share-new-icons-system-icons-too/3310/17
