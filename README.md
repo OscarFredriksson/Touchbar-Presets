@@ -1,10 +1,21 @@
 # Touchbar-Presets
 Presets for Macbook Pro Touchbar in BetterTouchTool
 
-## Default Preset:
+## Default Preset
 
-### Default view:
+### Default view
+
 ![Default](/Default/Screenshots/Default.png)
+
+Left to right:
+- Brightness up/down
+- Emojis
+- Open schedule in safari
+- Latest apps widget
+- Volume controls
+- Go to apple default touchbar
+- Battery %
+- Clock
 
 ### Stats group:
 ![Stats](/Default/Screenshots/Stats.png)
