@@ -44,7 +44,7 @@ Presets for Macbook Pro Touchbar in BetterTouchTool
 - Screenshot (section style)
 - Move window to previous/next desktop
 - Create a new desktop
-- Maximise window left/right
+- Maximise window left/right (hold for OS X splitscreen)
 - Resize window to upper left/right corner (hold for lower)
 - Maximise window size (hold to revert)
 - Toggle fullscreen
