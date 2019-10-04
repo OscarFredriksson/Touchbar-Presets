@@ -13,21 +13,18 @@ struct Stats
 
 struct Stats getStats()
 {
-	StartLog("/tmp/PowerGadgetLog.csv");
-	
 	int numMsrs = 0;
 	GetNumMsrs(&numMsrs);
-	
+
 	sleep(1);
 	ReadSample();
 	
 	struct Stats stats;
 
 	for (int j = 0; j < numMsrs; j++) {
+
 		int funcID;
-		char szName[1024];
 		GetMsrFunc(j, &funcID);
-		GetMsrName(j, szName);
 		
 		int nData;
 		double data[3];
@@ -35,13 +32,8 @@ struct Stats getStats()
 		
 		if(funcID == MSR_FUNC_TEMP) 		stats.temp = data[0];
 		else if(funcID == MSR_FUNC_FREQ)	stats.freq = data[0]/1000;
-		else if(funcID == MSR_FUNC_POWER) 	stats.power = data[0];
-
-		
+		else if(funcID == MSR_FUNC_POWER) 	stats.power = data[0];	
 	}
-	
-	sleep(1);
-	StopLog();
 
 	return stats;
 }
